@@ -348,6 +348,10 @@ rajouter dans ''scripts'’ de package.json :
 créer le fichier :
 .babelrc
 
+sous windows:
+Ajouter à "rules" au fichier .eslintrc :
+"linebreak-style": ["error", "windows"],
+
 ---------------------------------
 
 ## Déploiement *** SURGE ***
