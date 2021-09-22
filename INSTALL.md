@@ -331,13 +331,14 @@ Suivre https://classic.yarnpkg.com/en/docs/install/ en fonction de votre OS
 
 ---------------------------------
 
-Démarrage rapide
+## Démarrage rapide
 
-yarn add webpack –dev
+
+yarn add webpack --dev
 
 yarn add --dev @babel/core @babel/preset-env @babel/preset-react babel-loader
 
-yarn add webpack-dev-server –dev
+yarn add webpack-dev-server --dev
 
 yarn add --dev eslint-config-airbnb babel-eslint
 
@@ -346,3 +347,27 @@ rajouter dans ''scripts'’ de package.json :
 
 créer le fichier :
 .babelrc
+
+---------------------------------
+
+## Déploiement *** SURGE ***
+
+Se placer sur "development"
+
+Yarn add global surge
+
+yarn build
+
+yarn surge dist/
+
+Proposition de nom de domaine, appuyer sur entrée Si "Aborted", refaire
+
+yarn surge dist/
+
+Jusqu'au "Success"
+
+Récupérer le lien
+
+On peut changer directement le nom de domaine
+
+
